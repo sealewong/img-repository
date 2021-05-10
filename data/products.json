@@ -1,0 +1,191 @@
+[
+    {
+        "brand": "Briogeo",
+        "name": "Farewell Frizz Smoothing Shampoo",
+        "category": "shampoo",
+        "tag": "frizzy",
+        "img_path": "/static/img/bfrizzs.jpg"        
+    },
+    {
+        "brand": "Briogeo",
+        "name": "Farewell Frizz Smoothing Conditioner",
+        "category": "conditioner",
+        "tag": "frizzy",
+        "img_path": "/static/img/bfrizzc.jpg"        
+    },
+    {
+        "brand": "Briogeo",
+        "name": "Farewell Frizz Blow Dry Perfection Heat Protectant Cream",
+        "category": "treatment",
+        "tag": "frizzy",
+        "img_path": "/static/img/bfrizze.jpg"        
+    },
+    {
+        "brand": "Briogeo",
+        "name": "Blossom and Bloom Ginseng and Biotin Hair Volumizing Shampoo",
+        "category": "shampoo",
+        "tag": "volume",
+        "img_path": "/static/img/bvols.jpg"        
+    },
+    {
+        "brand": "Briogeo",
+        "name": "Blossom and Bloom Ginseng and Biotin Hair Volumizing Conditioner",
+        "category": "conditioner",
+        "tag": "volume",
+        "img_path": "/static/img/bvolc.jpg"        
+    },
+    {
+        "brand": "Briogeo",
+        "name": "Blossom and Bloom Ginseng and Biotin Hair Volumizing Spray",
+        "category": "treatment",
+        "tag": "volume",
+        "img_path": "/static/img/bvole.jpg"        
+    },
+    {
+        "brand": "Briogeo",
+        "name": "Be Gentle Be Kind Aloe and Oat Milk Ultra Soothing Shampoo",
+        "category": "shampoo",
+        "tag": "color-treated",
+        "img_path": "/static/img/bcols.jpg"        
+    },
+    {
+        "brand": "Briogeo",
+        "name": "Be Gentle Be Kind Aloe and Oat Milk Ultra Soothing Conditioner",
+        "category": "conditioner",
+        "tag": "color-treated",
+        "img_path": "/static/img/bcolc.jpg"        
+    },
+    {
+        "brand": "Briogeo",
+        "name": "Be Gentle Be Kind Aloe and Oat Milk Ultra Soothing Detangling Spray",
+        "category": "treatment",
+        "tag": "color-treated",
+        "img_path": "/static/img/bcole.jpg"        
+    },
+    {
+        "brand": "Christophe Robin",
+        "name": "Regenerating Shampoo with Prickly Pear Seed Oil",
+        "category": "shampoo",
+        "tag": "frizzy",
+        "img_path": "/static/img/cfrizzs.jpg"        
+    },
+    {
+        "brand": "Christophe Robin",
+        "name": "Regenerating Hair Mask with Prickly Pear Seed Oil",
+        "category": "conditioner",
+        "tag": "frizzy",
+        "img_path": "/static/img/cfrizzc.jpg"        
+    },
+    {
+        "brand": "Christophe Robin",
+        "name": "Regenerating Hair Serum with Prickly Pear Seed Oil",
+        "category": "treatment",
+        "tag": "frizzy",
+        "img_path": "/static/img/cfrizze.jpg"        
+    },
+    {
+        "brand": "Christophe Robin",
+        "name": "Volume Shampoo with Rose Extracts",
+        "category": "shampoo",
+        "tag": "volume",
+        "img_path": "/static/img/cvols.jpg"        
+    },
+    {
+        "brand": "Christophe Robin",
+        "name": "Volume Conditioner with Rose Extracts",
+        "category": "conditioner",
+        "tag": "volume",
+        "img_path": "/static/img/cvolc.jpg"        
+    },
+    {
+        "brand": "Christophe Robin",
+        "name": "Instant Volume Hair Mist with Rose Water",
+        "category": "treatment",
+        "tag": "volume",
+        "img_path": "/static/img/cvole.jpg"        
+    },
+    {
+        "brand": "Christophe Robin",
+        "name": "Color Shield Shampoo",
+        "category": "shampoo",
+        "tag": "color-treated",
+        "img_path": "/static/img/ccols.jpg"        
+    },
+    {
+        "brand": "Christophe Robin",
+        "name": "Color Shield Hair Mask",
+        "category": "conditioner",
+        "tag": "color-treated",
+        "img_path": "/static/img/ccolc.jpg"        
+    },
+    {
+        "brand": "Christophe Robin",
+        "name": "Shade Variation Hair Mask",
+        "category": "treatment",
+        "tag": "color-treated",
+        "img_path": "/static/img/ccole.jpg"        
+    },
+    {
+        "brand": "Bumble and Bumble",
+        "name": "Hairdresser's Invisible Oil Shampoo",
+        "category": "shampoo",
+        "tag": "frizzy",
+        "img_path": "/static/img/bbfrizzs.jpg"        
+    },
+    {
+        "brand": "Bumble and Bumble",
+        "name": "Hairdresser's Invisible Oil Conditioner",
+        "category": "conditioner",
+        "tag": "frizzy",
+        "img_path": "/static/img/bbfrizzc.jpg"        
+    },
+    {
+        "brand": "Bumble and Bumble",
+        "name": "Hairdresser's Invisible Oil",
+        "category": "treatment",
+        "tag": "frizzy",
+        "img_path": "/static/img/bbfrizze.jpg"        
+    },
+    {
+        "brand": "Bumble and Bumble",
+        "name": "Thickening Volume Shampoo",
+        "category": "shampoo",
+        "tag": "volume",
+        "img_path": "/static/img/bbvols.jpg"        
+    },
+    {
+        "brand": "Bumble and Bumble",
+        "name": "Thickening Volume Conditioner",
+        "category": "conditioner",
+        "tag": "volume",
+        "img_path": "/static/img/bbvolc.jpg"        
+    },
+    {
+        "brand": "Bumble and Bumble",
+        "name": "Thickening Spray",
+        "category": "treatment",
+        "tag": "volume",
+        "img_path": "/static/img/bbvole.jpg"        
+    },
+    {
+        "brand": "Bumble and Bumble",
+        "name": "Color Minded Shampoo",
+        "category": "shampoo",
+        "tag": "color-treated",
+        "img_path": "/static/img/bbcols.jpg"        
+    },
+    {
+        "brand": "Bumble and Bumble",
+        "name": "Color Minded Conditioner",
+        "category": "conditioner",
+        "tag": "color-treated",
+        "img_path": "/static/img/bbcolc.jpg"        
+    },
+    {
+        "brand": "Bumble and Bumble",
+        "name": "Brownish Hair Powder",
+        "category": "treatment",
+        "tag": "color-treated",
+        "img_path": "/static/img/bbcole.jpg"        
+    }
+]
