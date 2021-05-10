@@ -21,15 +21,6 @@ def all_products():
     return render_template('homepage.html', products=products)
 
 
-@app.route('/product/<product_id>')
-def show_product(product_id):
-    """Show details on a product."""
-
-    product = crud.get_product(product_id)
-
-    return render_template('product_details.html', product=product)
-
-
 @app.route('/brand/<brand>')
 def brand_products(brand):
     """View products from a brand."""
