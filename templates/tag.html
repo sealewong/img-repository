@@ -45,7 +45,7 @@
   <section class="jumbotron text-center">
     <div class="container">
       <h1>{{ product.tag }}</h1>
-      <p class="lead text-muted">Hair products for {{ product.tag }} concern</p>
+      <p class="lead text-muted">Hair products for {{ product.tag }} concerns</p>
     </div>
   </section>
 
@@ -63,15 +63,18 @@
               <p class="card-text">{{ product.brand }}</p>
               <p class="card-text">{{ product.name }}</p>
               <div class="d-flex justify-content-between align-items-center">
+                
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#{{product.product_id}}">View</button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal{{ product.product_id }}">
+                  View
+                </button>
 
                 <!-- Modal -->
-                <div class="modal fade" id="{{product.product_id}}" tabindex="-1" aria-labelledby="{{ product.product_id}}Label" aria-hidden="true">
+                <div class="modal fade" id="modal{{ product.product_id }}" tabindex="-1" aria-labelledby="modal{{ product.product_id }}Label" aria-hidden="true">
                   <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="{{ product.product_id}}Label">{{ product.brand }} {{ product.name }}</h5>
+                        <h5 class="modal-title" id="modal{{ product.product_id }}Label">{{ product.brand }} {{ product.name }}</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
@@ -81,9 +84,9 @@
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary" href="/brand/{{ product.brand }}">{{ product.brand }}</button>
-                        <button type="button" class="btn btn-primary" href="/category/{{ product.category }}">{{ product.category }}</button>
-                        <button type="button" class="btn btn-primary" href="/tag/{{ product.tag }}">{{ product.tag }}</button>
+                        <a class="btn btn-primary" href="/brand/{{ product.brand }}" role="button">{{ product.brand }}</a>
+                        <a class="btn btn-primary" href="/category/{{ product.category }}" role="button">{{ product.category }}</a>
+                        <a class="btn btn-primary" href="/tag/{{ product.tag }}" role="button">{{ product.tag }}</a>
                       </div>
                     </div>
                   </div>
