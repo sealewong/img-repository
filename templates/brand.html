@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -7,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.80.0">
-    <title>{{ product.brand }}</title>
+    <title>Hair Care Products</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.6/examples/album/">
 
@@ -46,7 +45,7 @@
   <section class="jumbotron text-center">
     <div class="container">
       <h1>{{ product.brand }}</h1>
-      <p class="lead text-muted">Hair care products by {{ product.brand }}</p>
+      <p class="lead text-muted">{{ product.brand }} hair care products</p>
     </div>
   </section>
 
@@ -64,9 +63,32 @@
               <p class="card-text">{{ product.brand }}</p>
               <p class="card-text">{{ product.name }}</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#{{product.product_id}}">View</button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="{{product.product_id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="{{ product.product_id}}Label">{{ product.brand }} {{ product.name }}</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <img src="{{ product.img_path }}">
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" href="/brand/{{ product.brand }}">{{ product.brand }}</button>
+                        <button type="button" class="btn btn-primary" href="/category/{{ product.category }}">{{ product.category }}</button>
+                        <button type="button" class="btn btn-primary" href="/tag/{{ product.tag }}">{{ product.tag }}</button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+
               </div>
             </div>
           </div>
