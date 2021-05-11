@@ -27,7 +27,7 @@ def brand_products(brand):
 
     products = crud.get_products_by_brand(brand)
 
-    return render_template('brand.html', products=products)
+    return render_template('brand.html', products=products, brand=brand)
 
 
 @app.route('/category/<category>')
@@ -36,7 +36,7 @@ def category_products(category):
 
     products = crud.get_products_by_category(category)
 
-    return render_template('category.html', products=products)
+    return render_template('category.html', products=products, category=category)
 
 
 @app.route('/tag/<tag>')
@@ -45,7 +45,7 @@ def tag_products(tag):
 
     products = crud.get_products_by_tag(tag)
 
-    return render_template('tag.html', products=products)
+    return render_template('tag.html', products=products, tag=tag)
 
 
 if __name__ == '__main__':
